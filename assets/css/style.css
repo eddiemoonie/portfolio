@@ -15,6 +15,7 @@ nav ul {
 }
 
 section {
+    dispaly: justify-content;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -34,8 +35,11 @@ div {
     margin: 0;
 }
 
-#project-photo {
+.project-photos {
     text-align: center;
+    width:  300px;
+    height: 300px;
+    padding: 20px 20px 20px 20px
 }
 
 #profile {
@@ -48,9 +52,20 @@ div {
 
 #bio {
     margin-top:0;
-    display: inline-block;
+    position: relative;
+
 }
 
 #contact-info {
     text-align: center;
 }
+
+.photo-div {
+    text-align: center;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
