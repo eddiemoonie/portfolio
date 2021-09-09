@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4275f5;
+    color: white;
+    height: 80px;
+    padding-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
