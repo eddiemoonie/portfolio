@@ -3,7 +3,6 @@ header {
     justify-content: space-between;
     background-color: #4275f5;
     color: white;
-    height: 80px;
     padding-left: 100px;
 }
 
@@ -15,7 +14,43 @@ nav ul {
     padding-right: 100px;
 }
 
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div {
+    background-color: #F0EFEF;
+}
+
 .tabs {
     color: white;
     text-decoration: none;
+    float: right;
+}
+
+.page-titles {
+    text-align: center;
+    margin: 0;
+}
+
+#project-photo {
+    text-align: center;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile-photo {
+    display:inline-block;
+}
+
+#bio {
+    margin-top:0;
+    display: inline-block;
+}
+
+#contact-info {
+    text-align: center;
 }
